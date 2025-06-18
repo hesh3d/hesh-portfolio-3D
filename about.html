@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiladiCode - Creative Developer</title>
+    <!-- Font from google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-text">Loading...</div>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+    </div>
+    <!-- Custom Cursor -->
+     <div class="cursor"></div>
+     <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+     <nav>
+        <div class="nav-container">
+            <div class="logo">3D</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div style="display: flex; align-items: center;">
+                <div class="theme-toggle" id="themeToggle">
+                    <span class="theme-toggle-icon moon">🌙</span>
+                    <span class="theme-toggle-icon sun">🌞</span>
+                </div>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+     </nav>
+
+
+     <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <li><a href="projects.html">Projects</a></li>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <!-- about hero -->>
+
+      <section class="about-hero">
+  <div class="about-hero-content">
+    <h1 class="about-title">🔹 About Me</h1>
+    <p class="about-text">
+      Hi, I’m Hesham – a freelance 3D artist specializing in product animation and visual effects using Blender.<br><br>
+      From luxury perfumes to lighting scenes and cinematic effects, I help brands and individuals bring their ideas to life through engaging, high-quality visuals.
+    </p>
+
+    <h2 class="about-subtitle">🔹 What I Offer</h2>
+    <ul class="about-list">
+      <li>Realistic product animations</li>
+      <li>Short promotional videos and VFX</li>
+      <li>Professional lighting and material setups</li>
+      <li>Personal creative projects full of passion and imagination</li>
+      <li>Every project I take on starts from scratch, with attention to detail as if it were my own.</li>
+    </ul>
+
+    <h2 class="about-subtitle">🔹 Numbers That Matter</h2>
+    <div class="numbers-container">
+      <div class="number-item">
+        <span class="number-icon">📅</span>
+        <span class="number-value">4+</span>
+        <span class="number-label">Years Experience</span>
+      </div>
+      <div class="number-item">
+        <span class="number-icon">🤝</span>
+        <span class="number-value">25+</span>
+        <span class="number-label">Clients Worldwide</span>
+      </div>
+      <div class="number-item">
+        <span class="number-icon">🎬</span>
+        <span class="number-value">40+</span>
+        <span class="number-label">Projects Delivered</span>
+      </div>
+      <div class="number-item">
+        <span class="number-icon">🌍</span>
+        <span class="number-value">Remote</span>
+        <span class="number-label">Global Collaborations</span>
+      </div>
+    </div>
+
+    <h2 class="about-subtitle">🔹 Why Work With Me?</h2>
+    <ul class="about-list">
+      <li>✅ Easy and smooth communication</li>
+      <li>✅ A deep understanding of your vision</li>
+      <li>✅ High production quality and attention to detail</li>
+      <li>✅ Reliable timelines and stress-free delivery</li>
+    </ul>
+
+    <h2 class="about-subtitle">🔹 Let’s Work Together</h2>
+    <p class="about-text">
+      Whether you have a clear vision or just an idea in mind, I can help you shape it into a visual story that connects.<br><br>
+    </p>
+    <a href="contact.html" class="cta-button about-cta-button">Contact Me</a>
+  </div>
+</section>
+
+
+       <!-- 3D model -->
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.8/build/spline-viewer.js"></script>
+        
+
+    <!-- GSAP Plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
