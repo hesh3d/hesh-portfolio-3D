@@ -393,6 +393,13 @@ nav {
   z-index: -1;
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: url('myfont.woff2') format('woff2');
+  font-display: swap;
+}
+
+
 @media (max-width: 1080px) {
   .hero-img {
     height: 38%;
